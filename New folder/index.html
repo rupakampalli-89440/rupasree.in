@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090d">
+  <meta name="description" content="The portfolio of Kampalli Rupasree, Computer Science Engineering graduate.">
+  <title>Kampalli Rupasree — Computer Science Engineering Graduate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas class="particle-canvas" id="particles" aria-hidden="true"></canvas>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Kampalli Rupasree home">
+      <span class="brand-mark">R<span>.</span></span>
+      <span class="brand-name">KAMPALLI <b>RUPASREE</b></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle color theme">
+      <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE GRADUATE</p>
+        <h1>Hi, I'm<br><span class="gradient-text">Kampalli<br class="mobile-break"> Rupasree.</span></h1>
+        <p class="hero-role">Computer Science Engineering Graduate</p>
+        <p class="hero-intro">I’m a computer science engineering graduate with a curiosity for technology and a drive to keep learning. I’m building my skills in software development and looking forward to contributing to thoughtful, useful products.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+          <button class="button button-secondary" id="resume-button" type="button" aria-describedby="resume-note">Download resume <span aria-hidden="true">↓</span></button>
+        </div>
+        <p class="availability-note" id="resume-note">Resume file not provided yet.</p>
+        <div class="hero-meta">
+          <span><i class="meta-line"></i> COMPUTER SCIENCE</span>
+          <span><i class="meta-line"></i> ALWAYS LEARNING</span>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Portrait of Kampalli Rupasree">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="orbit-node node-one"></div>
+        <div class="orbit-node node-two"></div>
+        <div class="portrait-card">
+          <img class="portrait-photo" src="rupasree-profile.png" alt="Kampalli Rupasree wearing a navy blazer" fetchpriority="high">
+          <span class="portrait-index">PORTFOLIO / 01</span>
+          <span class="portrait-caption">KAMPALLI<br>RUPASREE</span>
+        </div>
+        <div class="floating-chip chip-code"><span class="chip-dot"></span> CSE GRADUATE</div>
+        <div class="floating-chip chip-build"><span aria-hidden="true">✦</span> BUILDING WHAT'S NEXT</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap content-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+        <h2>Curious by nature.<br><span class="gradient-text">Driven to create.</span></h2>
+      </div>
+      <div class="about-layout reveal">
+        <p class="about-lead">I’m a Computer Science Engineering graduate interested in how technology can turn ideas into useful experiences.</p>
+        <div class="about-detail">
+          <p>My engineering background has given me a foundation in computer science, and I enjoy exploring programming and web technologies. I learn by staying curious, practicing consistently, and taking on new challenges.</p>
+          <p>I’m working toward a career where I can grow as a software developer, collaborate with a team, and contribute to meaningful projects.</p>
+          <div class="about-facts">
+            <div><span class="fact-number">01</span><span>Computer Science<br>Engineering Graduate</span></div>
+            <div><span class="fact-number">∞</span><span>Curiosity for<br>continuous learning</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / EDUCATION</p>
+        <h2>A foundation in<br><span class="gradient-text">computer science.</span></h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-marker" aria-hidden="true"><span></span></div>
+        <article class="education-card glass-card">
+          <div class="education-topline"><span class="card-kicker">DEGREE</span><span class="education-date">DETAILS TO BE ADDED</span></div>
+          <h3>Computer Science Engineering</h3>
+          <p>Graduate</p>
+          <span class="education-note">Institution and graduation year were not included in the provided portfolio details.</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / SKILLS</p>
+        <h2>Tools I’m learning<br><span class="gradient-text">to build with.</span></h2>
+      </div>
+      <div class="skills-layout reveal">
+        <p class="skills-intro">A growing toolkit across programming and the web. I’m always open to learning the right tool for the job.</p>
+        <div class="skills-grid">
+          <div class="skill-card glass-card"><span class="skill-index">01</span><span class="skill-name">HTML</span><span class="skill-type">WEB / MARKUP</span></div>
+          <div class="skill-card glass-card"><span class="skill-index">02</span><span class="skill-name">CSS</span><span class="skill-type">WEB / STYLING</span></div>
+          <div class="skill-card glass-card"><span class="skill-index">03</span><span class="skill-name">JavaScript</span><span class="skill-type">WEB / PROGRAMMING</span></div>
+          <div class="skill-card glass-card"><span class="skill-index">04</span><span class="skill-name">Python</span><span class="skill-type">PROGRAMMING</span></div>
+          <div class="skill-card glass-card"><span class="skill-index">05</span><span class="skill-name">Java</span><span class="skill-type">PROGRAMMING</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / SELECTED WORK</p>
+        <h2>Projects that bring<br><span class="gradient-text">ideas to life.</span></h2>
+      </div>
+      <div class="empty-state glass-card reveal">
+        <span class="empty-icon" aria-hidden="true">✳</span>
+        <div><h3>Projects are on the way.</h3><p>No project details or links were included in the supplied portfolio. Add your real work here to make it shine.</p></div>
+        <span class="empty-count">01 — ∅</span>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="certificates">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 / CERTIFICATES</p>
+        <h2>Learning, recognized.<br><span class="gradient-text">Growing, always.</span></h2>
+      </div>
+      <div class="certificate-empty glass-card reveal">
+        <div class="certificate-outline" aria-hidden="true"><span>✧</span></div>
+        <div><h3>Certificate gallery</h3><p>Share your certificates to add a gallery with full-size previews.</p></div>
+        <span class="certificate-mark" aria-hidden="true">R.</span>
+      </div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2>Have something<br>in <span class="gradient-text">mind?</span></h2>
+        <p>I’m open to new opportunities and conversations. Send a note and let’s connect.</p>
+        <div class="contact-links">
+          <div class="contact-link"><span class="contact-link-icon" aria-hidden="true">@</span><span><small>EMAIL</small><b>Email address not provided</b></span></div>
+          <div class="contact-link"><span class="contact-link-icon" aria-hidden="true">in</span><span><small>LINKEDIN</small><b>Profile link not provided</b></span></div>
+          <div class="contact-link"><span class="contact-link-icon" aria-hidden="true">⌘</span><span><small>GITHUB</small><b>Profile link not provided</b></span></div>
+        </div>
+      </div>
+      <form class="contact-form glass-card reveal" id="contact-form">
+        <div class="form-heading"><span>DROP A MESSAGE</span><span class="form-spark" aria-hidden="true">✳</span></div>
+        <label for="contact-name">Your name</label>
+        <input id="contact-name" name="name" autocomplete="name" placeholder="Enter your name" required>
+        <label for="contact-email">Email address</label>
+        <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="Enter your email address" required>
+        <label for="contact-mobile">Mobile number <span>(optional)</span></label>
+        <input id="contact-mobile" name="mobile" type="tel" autocomplete="tel" placeholder="Optional">
+        <label for="contact-message">Your message</label>
+        <textarea id="contact-message" name="message" rows="4" placeholder="Write your message" required></textarea>
+        <button class="button button-primary send-button" type="submit">Prepare message <span aria-hidden="true">↗</span></button>
+        <p class="form-note" id="form-note" aria-live="polite">An email address is needed to enable message delivery.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">R<span>.</span></a>
+    <p>Designed with intent. Built for what’s next.</p>
+    <a class="back-to-top" href="#home">BACK TO TOP ↑</a>
+    <span class="footer-year">© <span id="current-year"></span> KAMPALLI RUPASREE</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
